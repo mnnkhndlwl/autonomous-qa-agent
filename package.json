@@ -1,0 +1,19 @@
+{
+  "name": "qa-agent",
+  "version": "0.1.0",
+  "description": "CLI-based Autonomous QA Agent to run Maestro E2E tests and report to Jira/Slack",
+  "bin": {
+    "qa-agent": "bin/qa-agent.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/qa-agent.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "commander": "^11.1.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.3.1"
+  }
+}
